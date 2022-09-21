@@ -114,7 +114,7 @@ A single answer will be like
 ```js
 {
   "_id": "5ee9acbcd98b1243bbc183bc",
-  "text": "Event loop spawns 4 sperate threads for async ops",
+  "text": "Event loop spawns 4 seperate threads for async ops",
   "author": {
       "_id": "5ee48a5bc6ebc40c5f1b7251",
       "username": "qwerty"
@@ -143,7 +143,7 @@ A single answer will be like
       },
       {
           "_id": "5ee9acbcd98b1243bbc183bc",
-          "text": "Event loop spawns 4 sperate threads for async ops",
+          "text": "Event loop spawns 4 separate threads for async ops",
           "author": {
               "_id": "5ee48a5bc6ebc40c5f1b7251",
               "username": "max"
@@ -266,7 +266,7 @@ It should also delete associated answers.
 - pathname -> /questions/:questionId/answers
 - authentication required
 
-- required fileds are
+- required Fields are
   - text answer
   - author
 
@@ -320,7 +320,7 @@ It should return an array of all tags used.
 Further add endpoints for following actions
 
 - follow/unfollow other user
-- upvote questions/answers
+- update questions/answers
 - add comments on questions/answers
 - admin dashboard
   - admin registration/login
